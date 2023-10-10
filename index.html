@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/plugins/slick/slick.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/plugins/slick/slick-theme.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/plugins/selectric/selectric.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/plugins/lightbox2/dist/css/lightbox.min.css"
+    />
+    <link rel="stylesheet" media="all" href="/css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <div class="logo" id="logo">
+              <a href="#top" class="menu-item">
+                <img src="/images/logo.svg" alt="Carzone" />
+              </a>
+            </div>
+          </div>
+          <div class="col top-nav">
+            <div class="top-links">
+              <ul>
+                <li>
+                  <a
+                    href="https://www.facebook.com/people/Carzonemd/100091997430613/"
+                    target="blank"
+                  >
+                    <img src="/images/facebook-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/carzone.md/"
+                    target="blank"
+                  >
+                    <img src="/images/instagramm-icon.svg" alt="" />
+                  </a>
+                </li>
+                <li>
+                  <a href="tel:0698776567" class="number">0698776567 </a>
+                </li>
+              </ul>
+            </div>
+            <nav id="mainmenu" class="mainmenu">
+              <ul>
+                <li>
+                  <a href="#section1" class="menu-item">FACEȚI COMANDĂ</a>
+                </li>
+                <li>
+                  <a href="#section4" class="menu-item">PROCESUL</a>
+                </li>
+                <li>
+                  <a href="#section5" class="menu-item">AVANTAJE</a>
+                </li>
+                <li>
+                  <a href="#section2" class="menu-item">LUCRĂRILE NOASTRE</a>
+                </li>
+                <li>
+                  <a href="#section3" class="menu-item">CONTACTE</a>
+                </li>
+                <li class="to-top-btn">
+                  <a href="#top" class="menu-item"></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="mobile-menu-btn"></div>
+        </div>
+      </div>
+    </header>
+    <main class="main" id="top">
+      <section class="top-banner full-height scrollspy">
+        <video playsinline autoplay muted loop poster="" class="video-bg">
+          <source src="/video/video-bg-carzone.mp4" type="video/mp4" />
+        </video>
+        <div class="container">
+          <h1 class="slide-title">Covorașe auto de o noua generație</h1>
+          <p>pentru autoturizme și autocamioane</p>
+        </div>
+      </section>
+      <section id="section1" class="section1 scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <img src="/images/illustration1.jpg" alt="" />
+            </div>
+            <div class="col content-center">
+              <div class="form-heading">
+                <h2>Faceți o comandă</h2>
+                <p>vă vom contacta imediat ce primim cererea dumneavoastră</p>
+              </div>
+              <form
+                action="https://api.telegram.org/bot6564645636:AAG0iXDTZHzYptdbnao0TaPddUZqhgyt7W0/sendMessage"
+                id="telegramsend"
+                class="telegramsend"
+              >
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder="Numele Dumneavoastră"
+                  />
+                </div>
+                <div class="input-wrapper">
+                  <input
+                    type="text"
+                    name="phone-number"
+                    placeholder="Numar de telefon "
+                  />
+                </div>
+                <select name="method">
+                  <option value="" selected disabled hidden>
+                    Alegeți o metodă de contact
+                  </option>
+                  <option value="Phone">Phone</option>
+                  <option value="Viber">Viber</option>
+                  <option value="Telegram">Telegram</option>
+                  <option value="Whatsapp">Whatsapp</option>
+                </select>
+                <div class="button-wrapper">
+                  <button type="submit">Trimite</button>
+                </div>
+              </form>
+              <div class="message-status">
+                <p class="message-status-text"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section4" class="process scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col col-text">
+              <div class="content">
+                <h2>PROCESUL</h2>
+                <div class="steps-wrapper">
+                  <div class="row">
+                    <div class="col">
+                      <h3>Cumpărare</h3>
+                      <p>
+                        Se achită suma integral sau un avans, la dorința
+                        clientului
+                      </p>
+                    </div>
+                    <div class="col circle"></div>
+                    <div class="col"></div>
+                  </div>
+                  <div class="row">
+                    <div class="col"></div>
+                    <div class="col circle"></div>
+                    <div class="col">
+                      <h3>Măsurare</h3>
+                      <p>
+                        Se iau măsurile, dacă nu există machetu și se efectuează
+                        taerea si cusutul covoraselor in 24 de ore.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h3>Eliberare</h3>
+                      <p>Se achita restul sumei si se elibereaza produsul.</p>
+                    </div>
+                    <div class="col circle"></div>
+                    <div class="col"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col col-video">
+              <div class="video-btn"></div>
+              <div class="video-wrapper" style="display: none">
+                <video controls="" playsinline="" id="">
+                  <source src="/video/Hyunday-Santa-Fe-2019.mp4" />
+                </video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section5" class="properties scrollspy">
+        <div class="container">
+          <div class="row section-title">
+            <div class="col">
+              <h2 class="thin text-right">DE CE ALEGI COVORAȘELE noastre?</h2>
+            </div>
+            <div class="col">
+              <h2 class="text-left">
+                Confortul dumneavoastră este prioritatea noastră
+              </h2>
+            </div>
+          </div>
+          <ul>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon1.svg" alt="" />
+              </div>
+              <p>REZISTENȚĂ MAXIMĂ LA APĂ</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon2.svg" alt="" />
+              </div>
+              <p>SE CURĂȚĂ UȘOR ȘI RAPID</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon3.svg" alt="" />
+              </div>
+              <p>NU SE DEFORMEAZĂ LA CĂLDURĂ +50°</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon4.svg" alt="" />
+              </div>
+              <p>REȚINE PRAFUL SAU APA</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon5.svg" alt="" />
+              </div>
+              <p>NU ALUNECĂ</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon6.svg" alt="" />
+              </div>
+              <p>NU ARE MIROS</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon7.svg" alt="" />
+              </div>
+              <p>NU SE FISUREAZĂ LA FRIG-50°</p>
+            </li>
+            <li>
+              <div class="icon-wrapper">
+                <img src="/images/icon8.svg" alt="" />
+              </div>
+              <p>ESTE RECICLABIL</p>
+            </li>
+          </ul>
+          <div class="phone-block-wrapper">
+            <div class="phone-block">
+              <h2>
+                <b> AI NEVOIE DE AJUTOR ? </b>
+                Sunați-ne ACUM
+              </h2>
+              <div class="number">
+                <a href="tel:0698776567">(+373) 698776567</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section2" class="section2 scrollspy">
+        <div class="container">
+          <div class="block-title">
+            <h2>LUCRĂRILE NOASTRE</h2>
+          </div>
+          <div class="portfolio">
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet2.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet2.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet5.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet5.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet7.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet7.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet6.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet6.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet8.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet8.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/carpet3.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/carpet3.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/Mercedes-Vito-2012.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/Mercedes-Vito-2012.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/Nissan-QASHQAI-2018-3.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/Nissan-QASHQAI-2018-3.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+            <div>
+              <a
+                class="example-image-link"
+                href="/images/portfolio/large/Nissan-QASHQAI-2018-2.jpg"
+                data-lightbox="example-set"
+                ><img
+                  class="example-image"
+                  src="/images/portfolio/Nissan-QASHQAI-2018-2.jpg"
+                  alt="Covorase Auto"
+              /></a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="section" class="section2 full-height scrollspy">
+        <div class="container"></div>
+      </section>
+      <section id="section3" class="section3 full-height scrollspy">
+        <div class="container">
+          <div class="row">
+            <div class="col col-address">
+              <div class="content">
+                <h2>Adresa noastră</h2>
+                <p class="text-large">
+                  Chișinău, MD-2059
+                  <br />
+                  strada Pescărușilor, 1/1
+                </p>
+                <p>
+                  <b
+                    >Program de lucru - 9:00 - 16:00
+                    <br />
+                    DUMINICĂ ÎNCHIS</b
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="col col-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d961.0140344092567!2d28.80012233176558!3d47.056747687647736!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97d6c863e3a05%3A0x2d12f313c9b2e158!2sCarzone!5e0!3m2!1sen!2sro!4v1690888495965!5m2!1sen!2sro"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="row justify-space-between">
+          <div class="col">
+            <img
+              src="/images/logo-white.svg"
+              alt="carzone"
+              class="footer-logo"
+            />
+          </div>
+          <div class="col col-right">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <b> Adresa </b>
+                  <br />
+                  Or. Chișinau, MD-2059
+                  <br />
+                  strada Pescărușilor, 1/1
+                </p>
+              </div>
+              <div class="col">
+                <p>
+                  <b> Telefon </b>
+                  <br />
+                  0698776567
+                </p>
+              </div>
+              <div class="col">
+                <ul class="social">
+                  <li>
+                    <a
+                      href="https://www.facebook.com/people/Carzonemd/100091997430613/"
+                      target="blank"
+                    >
+                      <img src="/images/facebook-icon.svg" alt="" />
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.instagram.com/carzone.md/"
+                      target="blank"
+                    >
+                      <img src="/images/instagramm-icon.svg" alt="" />
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="/libraries/jquery-3.6.1.min.js"></script>
+  <script async src="/plugins/simple-scrollspy.min.js"></script>
+  <!-- <script src="/plugins/slick/slick.min.js"></script> -->
+  <script src="/plugins/selectric/jquery.selectric.js"></script>
+  <script src="/plugins/jquery.inputmask.js"></script>
+  <script src="/plugins/lightbox2/dist/js/lightbox.min.js"></script>
+  <script src="/sendmsg.js"></script>
+  <script>
+    window.onload = function () {
+      scrollSpy('#mainmenu', {
+        sectionClass: '.scrollspy',
+        menuActiveTarget: '.menu-item',
+        offset: 200,
+        smoothScroll: true,
+        smoothScrollBehavior: function (element) {
+          element.scrollIntoView({ behavior: 'smooth' });
+        },
+      });
+    };
+  </script>
+  <script>
+    $(document).ready(function () {
+      $('[name="phone-number"]').inputmask('+373 999 99 999', {
+        showMaskOnFocus: true,
+      });
+      $('#adult').on('click', function () {
+        $('.blocking-section').addClass('passed').fadeOut();
+      });
+      // $('.slider').slick({
+      //   slidesToShow: 1,
+      //   slidesToScroll: 1,
+      //   autoplay: false,
+      //   arrows: false,
+      //   dots: true,
+      //   focusOnSelect: true,
+      //   autoplaySpeed: 2000,
+      // });
+
+      $('select').selectric();
+
+      $('#logo a').on('click', function (event) {
+        if (this.hash !== '') {
+          event.preventDefault();
+          var hash = this.hash;
+          $('html, body').animate(
+            {
+              scrollTop: $(hash).offset().top,
+            },
+            400,
+            function () {
+              window.location.hash = hash;
+            }
+          );
+        }
+      });
+
+      $(window).on('scroll', function () {
+        if ($(window).scrollTop() > 500) $('.to-top-btn').fadeIn();
+        else $('.to-top-btn').fadeOut();
+
+        if ($(window).scrollTop() > 50) $('header').addClass('sticky');
+        else $('header').removeClass('sticky');
+      });
+
+      $('.mobile-menu-btn').on('click', function () {
+        if ($('.mobile-menu-shown').length !== 0) {
+          $('body').removeClass('mobile-menu-shown');
+        } else {
+          $('body').addClass('mobile-menu-shown');
+        }
+      });
+
+      $(document).click(function () {
+        if ($('.mobile-menu-shown').length !== 0) {
+          var obj = $('.mobile-menu-btn');
+          if (!obj.is(event.target) && !obj.has(event.target).length) {
+            $('body').removeClass('mobile-menu-shown');
+          }
+        }
+      });
+
+      $('.col-video').on('click', function () {
+        if (!$(this).hasClass('active')) {
+          $(this)
+            .find('.video-wrapper')
+            .prepend('<div class="close-video-btn">close</div>');
+          if ($('.light-box').length) {
+          } else {
+            $(this)
+              .find('.video-wrapper')
+              .wrap('<div class="light-box"></div>');
+            $('.light-box').append('<div class="overlay"></div>');
+          }
+          $(this).find('.video-wrapper').css('display', 'block');
+          $(this).find('video').attr('id', 'inPlay').get(0).play();
+          $(this).addClass('active');
+        }
+      });
+
+      $(document).on('click', '.close-video-btn, .overlay', function () {
+        var vid = document.getElementById('inPlay');
+        vid.pause();
+        $('.col-video .video-wrapper').css('display', 'none');
+        $('.col-video video').attr('id', '');
+        $('.col-video .close-video-btn').remove();
+        $('.col-video.active').removeClass('active');
+        $('.overlay').remove();
+        $('.video-wrapper').unwrap('.light-box');
+      });
+    });
+  </script>
+</html>
